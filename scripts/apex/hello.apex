@@ -8,3 +8,10 @@
 string tempvar = 'Jennifer';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+// Testing Integer
+
+Integer a = 5;
+Integer b = 10;
+Integer sum = a + B;
+System.debug(sum);
