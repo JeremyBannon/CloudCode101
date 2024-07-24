@@ -1,26 +1,21 @@
-// Use .apex files to store anonymous Apex.
-// You can execute anonymous Apex in VS Code by selecting the
-//     apex text and running the command:
-//     SFDX: Execute Anonymous Apex with Currently Selected Text
-// You can also execute the entire file by running the command:
-//     SFDX: Execute Anonymous Apex with Editor Contents
+Integer score = 1096;
+if (score <= 365) {
+    System.debug('TTM');
+} else if (score >= 366 && score <=730) {
+    System.debug('12-24 Mo');
+} else if (score >= 731 && score <= 1095) {
+    System.debug('24-36 Mo'); 
+} else {
+    System.debug('Older');
+}
 
-string tempvar = 'Jennifer';
-System.debug('Hello World!');
-System.debug('My name is ' + tempvar);
+//Loops
+/*
+for (init_stmt; exit_condition; increment_stmt)
+{
+    // code to execute
+}
+*/
 
-// Testing Integer
-
-Integer a = 5;
-Integer b = 10;
-Integer sum = a + B;
-System.debug(sum);
-// Decimal and Integer Math
-
-Decimal price = 19.99;
-Integer quantity = 5;
-String total = 'The total is $' + (price * quantity);
-//Decimal total = price * quantity;
-//String word = 'The total is $' + total;
-System.debug(total);
-
+for (Integer i = 0; i <= 24; i+=4 )
+    System.debug(i);
