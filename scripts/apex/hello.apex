@@ -15,3 +15,11 @@ Integer a = 5;
 Integer b = 10;
 Integer sum = a + B;
 System.debug(sum);
+// Decimal and Integer Math
+
+Decimal price = 19.99;
+Integer quantity = 5;
+Decimal total = price * quantity;
+String word = 'The total is $' + total;
+System.debug(word);
+
