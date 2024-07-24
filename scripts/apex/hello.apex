@@ -19,7 +19,8 @@ System.debug(sum);
 
 Decimal price = 19.99;
 Integer quantity = 5;
-Decimal total = price * quantity;
-String word = 'The total is $' + total;
-System.debug(word);
+String total = 'The total is $' + (price * quantity);
+//Decimal total = price * quantity;
+//String word = 'The total is $' + total;
+System.debug(total);
 
